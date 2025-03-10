@@ -6,8 +6,6 @@
         <cfargument  name="title" type="string" required="true">
         <cfargument  name="author" type="string" required="true">
         <cfargument  name="price" type="string" required="true">
-     
-
         <cfset variables.instance.title=arguments.title>
         <cfset variables.instance.author=arguments.author>
         <cfset variables.instance.price=arguments.price>
